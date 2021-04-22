@@ -1,0 +1,219 @@
+button, input[type="submit"] {
+  color: green;
+  border-color: green;
+  background-color: white;
+}
+
+button:hover, input[type="submit"]:hover {
+  color: lightgreen;
+  border-color: lightgreen;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+main {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.main-header {
+  color: white;
+  font-size: larger;
+  margin-bottom: 0.5em;
+}
+
+.main-logo {
+  max-width: 25em;
+  max-height: 25em;
+}
+
+.nav-header-auth-container {
+  display: flex;
+  flex-direction: row;
+  background-color: darkgreen;
+  padding: 0.5em;
+  justify-content: space-between;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-nav-links > :not(:last-child) {
+  padding-right: 1em;
+}
+
+.main-nav-links__link {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.main-nav-links__link--selected {
+  color: beige;
+}
+
+.main-nav-links > a:hover, .main-nav-links > a:active,
+.main-nav-links > a:focus {
+  color: white;
+}
+
+.main-title {
+  color: green;
+}
+
+.auth-widget-dropdown {
+  position: absolute;
+  right: 0.5em;
+  border: solid;
+  border-color: lightgreen;
+  background-color: white;
+}
+
+.auth-widget-dropdown-message {
+  font-size: smaller;
+}
+
+.auth-widget-dropdown-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-widget-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-form {
+  margin-top: 0.25em;
+  display: flex;
+  flex-direction: column;
+  max-width: 10em;
+}
+
+.radio-group {
+  border: thin dashed green;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-widget-icon-button {
+  border: solid;
+  border-color: lightgreen;
+  padding: 0;
+}
+
+.auth-widget-icon {
+  width: 3em;
+  height: 3em;
+  display: block;
+  stroke: green;
+  fill: green;
+}
+
+.auth-widget-icon:hover{
+  stroke: lightgreen;
+  fill: lightgreen;
+}
+
+.auth-widget-icon__figure {
+  stroke: inherit;
+  stroke-width: 4px;
+}
+
+.auth-widget-icon__figure--hollow {
+  fill: white;
+}
+
+.auth-widget-icon__figure--filled {
+  fill: inherit;
+}
+
+.close-button {
+  padding: 0;
+  border: none;
+}
+
+.close-button-icon {
+  width: 1.5em;
+  height: 1.5em;
+  display: block;
+  stroke: darkred;
+}
+
+.close-button-icon:hover {
+  stroke: red;
+}
+
+.close-button-icon-lines {
+  stroke: inherit;
+  stroke-width: 4px;
+}
+
+.back-button {
+  padding: 0;
+  border: none;
+}
+
+.back-button-icon {
+  width: 1.5em;
+  height: 1.5em;
+  display: block;
+  stroke: black;
+  fill: black;
+}
+
+.back-button-icon:hover {
+  stroke: darkgray;
+  fill: darkgray;
+}
+
+.back-button-icon__triangle {
+  stroke: inherit;
+  stroke-width: 4px;
+  fill: inherit;
+}
+
+.account-action-switcher {
+  margin-top: 1em;
+  background-color: lightgray;
+}
+
+.account-action-swticher-nav__button--selected {
+  color: lightgreen;
+  border-color: darkgreen;
+  background-color: darkgreen;
+}
+
+.account-action-swticher-nav__button--selected:hover {
+  color: white;
+  border-color: darkgreen;
+  background-color: darkgreen;
+}
+
+.account-balance-container {
+  background-color: lightgray;
+}
+
+.transactions-table {
+  border: thin solid;
+  border-collapse: collapse;
+}
+
+.transactions-table th, .transactions-table td {
+  border: thin solid;
+  padding: .25em;
+}
+
+.transactions-refresh-button {
+  margin-top: 1em;
+}
